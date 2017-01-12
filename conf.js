@@ -6,7 +6,7 @@ exports.config = {
 
   // Capabilities to be passed to the webdriver instance.
   capabilities: {
-    'browserName': 'chrome'
+    'browserName': 'firefox'
   },
 
   // Framework to use. Jasmine is recommended.
@@ -14,7 +14,7 @@ exports.config = {
 
   // Spec patterns are relative to the current working directory when
   // protractor is called.
-  specs: ['spec1.js'],
+  specs: ['spec.js'],
   baseUrl: 'http://localhost:3000/',
   useAllAngular2AppRoots: true,
 
