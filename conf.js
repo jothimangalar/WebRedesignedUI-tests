@@ -17,9 +17,6 @@ exports.config = {
   specs: ['spec.js'],
   baseUrl: 'http://localhost:3000/',
   useAllAngular2AppRoots: true,
-chromeDriver: 'node_modules/protractor/selenium/chromedriver.exe',
-
-seleniumServerJar: 'node_modules/protractor/selenium/selenium-server-standalone-2.40.0.jar',	
 
   // Options to be passed to Jasmine.
   jasmineNodeOpts: {
