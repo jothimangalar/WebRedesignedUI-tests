@@ -13,4 +13,5 @@ before_script:
   - 'npm install grunt-protractor-runner'
   - 'npm install grunt-express-server'  
 script: 
-  - grunt travis-protractor
+  - grunt travis
+
