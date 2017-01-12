@@ -7,7 +7,6 @@ before_script:
   - 'node_modules/protractor/bin/webdriver-manager start 2>&1 &'  
   - sleep 3
   - 'npm install -g bower'
-  - 'bower install'
   - 'npm install grunt'
   - 'npm install grunt-cli'
   - 'npm install grunt-protractor-webdriver'
