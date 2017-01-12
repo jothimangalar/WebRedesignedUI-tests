@@ -13,4 +13,4 @@ before_script:
   - 'npm install grunt-protractor-runner'
   - 'npm install grunt-express-server'  
 script: 
-  - node protractor conf.js
+  - node node_modules/protractor/bin/protractor conf.js
