@@ -12,3 +12,5 @@ before_script:
   - 'npm install grunt-protractor-webdriver'
   - 'npm install grunt-protractor-runner'
   - 'npm install grunt-express-server'  
+script: 
+  - protractor conf.js
