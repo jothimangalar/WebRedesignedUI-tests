@@ -34,7 +34,7 @@ module.exports = function(grunt){
       },
       dev: {
         options: {
-          script: 'bin/www'
+          script: 'conf.js'
         }
       },
       prod: {
