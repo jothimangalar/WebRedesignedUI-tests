@@ -1,4 +1,9 @@
- "scripts": {
-    "start": "node ./bin/www",
-    "test": "grunt travis"
-  },
+{
+  "name": "learn-travis-Jothimangala",
+  "description": "Simple Travis-CI check for Protractor tests",
+  "author": "Jothimangala",
+  "version": "0.0.1",
+  "scripts": {
+    "test": "./node_modules/Protractor/bin/protractor conf.js"
+  }
+}
